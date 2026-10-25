@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="Chandrasekhar's portfolio — Python, data analysis, databases, and web development projects.">
+  <title>Chandrasekhar | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Chandrasekhar home"><span class="brand-mark">c<span>.</span></span><span class="brand-name">CHANDRASEKHAR</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+      </div>
+      <a class="nav-cta" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="status"><span class="status-dot"></span> BTECH · ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING</div>
+        <p class="hero-kicker">HELLO, I'M CHANDRASEKHAR.</p>
+        <h1>I build things<br>with <span class="gradient-text">code &amp; curiosity.</span></h1>
+        <p class="hero-description">A student developer learning by building practical projects with Python, data, databases, and the web. One project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-ghost" href="https://github.com/chandrasekhar-source" target="_blank" rel="noopener noreferrer">GitHub profile <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">CURRENTLY LEARNING</span><strong>Python · Data Analysis · AI/ML</strong></div>
+          <div class="meta-divider"></div>
+          <div><span class="meta-label">BASED IN</span><strong>India 🇮🇳</strong></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Decorative code-inspired artwork">
+        <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+        <div class="art-grid"></div>
+        <div class="code-window">
+          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>my_next_project.py</span><span class="window-menu">•••</span></div>
+          <div class="code-lines" aria-hidden="true">
+            <div><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-green">Developer</span><span>:</span></div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-blue">__init__</span>(self):</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;&nbsp;&nbsp;self.curiosity = <span class="code-orange">"always"</span></div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;&nbsp;&nbsp;self.projects = <span class="code-orange">[]</span></div>
+            <div><span class="line-no">05</span></div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;<span class="code-purple">def</span> <span class="code-blue">build</span>(self, idea):</div>
+            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-purple">return</span> idea + <span class="code-orange">" → reality"</span></div>
+            <div><span class="line-no">08</span></div>
+            <div><span class="line-no">09</span>me = <span class="code-green">Developer</span>()<span class="cursor">▍</span></div>
+          </div>
+        </div>
+        <div class="art-chip chip-top"><span class="chip-icon">✳</span><span><b>Always learning</b><small>Curiosity drives the build</small></span></div>
+        <div class="art-chip chip-bottom"><span class="chip-icon chip-icon-purple">⌘</span><span><b>Made with intent</b><small>Understand, test, improve</small></span></div>
+        <span class="art-coordinate">BUILD / TEST / LEARN</span>
+      </div>
+    </section>
+
+    <section class="tech-strip" aria-label="Areas of interest">
+      <div class="container strip-inner"><span>WHAT I WORK WITH</span><b>Python</b><i>✳</i><b>Pandas &amp; NumPy</b><i>✳</i><b>HTML / CSS / JS</b><i>✳</i><b>MySQL</b><i>✳</i><b>AI / ML</b></div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal">
+        <div><span class="section-label">01 — PROJECTS</span><h2>Learning through<br><span class="gradient-text">real builds.</span></h2></div>
+        <p>Projects are where I turn concepts into something practical. Here are two builds from my current journey.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured reveal">
+          <div class="project-art hospital-art">
+            <div class="project-art-top"><span>01 / DATABASE APPLICATION</span><span class="art-arrow">↗</span></div>
+            <div class="hospital-ui">
+              <div class="hospital-sidebar"><div class="hospital-logo">H<span>+</span></div><i class="selected"></i><i></i><i></i><i></i><i></i></div>
+              <div class="hospital-main">
+                <div class="ui-welcome"><span>HOSPITAL MANAGEMENT</span><b>Dashboard overview</b></div>
+                <div class="ui-cards"><div><small>MODULE</small><b>Patients</b><span class="ui-line"></span></div><div><small>MODULE</small><b>Appointments</b><span class="ui-line line-short"></span></div></div>
+                <div class="ui-table"><span></span><span></span><span></span><span></span></div>
+              </div>
+            </div>
+            <span class="art-caption">DATA, MADE ORGANISED.</span>
+          </div>
+          <div class="project-info">
+            <div class="project-topline"><span class="project-type">WEB DEVELOPMENT · DBMS</span><span class="project-index">PROJECT 01</span></div>
+            <h3>Hospital Management System</h3>
+            <p>A database-focused application project designed to organise hospital information. Built around a Python/Flask backend, MySQL database, and a web interface.</p>
+            <div class="tag-row"><span>Python</span><span>Flask</span><span>MySQL</span><span>HTML / CSS / JS</span></div>
+            <a class="project-link" href="https://github.com/chandrasekhar-source/Hospital-Management-DBMS" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-art data-art">
+            <div class="project-art-top"><span>02 / DATA ANALYSIS</span><span class="art-arrow">↗</span></div>
+            <div class="data-dashboard">
+              <div class="dashboard-label">STUDENT PERFORMANCE <span>● LIVE DATA VIEW</span></div>
+              <div class="dashboard-title">Understanding<br>the numbers<span>.</span></div>
+              <div class="chart-area"><div class="chart-y"><span>100</span><span>75</span><span>50</span><span>25</span></div><div class="chart-bars"><i style="--bar:46%"></i><i style="--bar:67%"></i><i style="--bar:57%"></i><i style="--bar:84%"></i><i style="--bar:71%"></i><i style="--bar:92%"></i><i style="--bar:76%"></i></div></div>
+              <div class="chart-bottom"><span>SUBJECT SCORES</span><span>CSV → PANDAS</span></div>
+            </div>
+            <span class="art-caption">FROM CSV TO INSIGHT.</span>
+          </div>
+          <div class="project-info">
+            <div class="project-topline"><span class="project-type">PYTHON · DATA</span><span class="project-index">PROJECT 02</span></div>
+            <h3>Student Performance Analyzer</h3>
+            <p>Processes student marks and study-hour data from a CSV file to practise data cleaning, analysis, and summarising results with Python libraries.</p>
+            <div class="tag-row"><span>Python</span><span>Pandas</span><span>NumPy</span><span>CSV</span></div>
+            <a class="project-link" href="https://github.com/chandrasekhar-source/student-performance-analyzer" target="_blank" rel="noopener noreferrer">Explore repository <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+      <div class="more-projects reveal"><span class="availability"><i></i> Growing my project list</span><a href="https://github.com/chandrasekhar-source" target="_blank" rel="noopener noreferrer">View all GitHub repositories <span>↗</span></a></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-layout">
+        <div class="about-heading reveal"><span class="section-label">02 — ABOUT ME</span><h2>Not just watching<br>tutorials. <span class="gradient-text">Building.</span></h2></div>
+        <div class="about-body reveal">
+          <p class="about-lead">I'm a BTech student specialising in AI &amp; ML, focused on developing a strong foundation through hands-on projects.</p>
+          <p>I'm learning how code, data, databases, and interfaces work together. I use AI tools as learning and debugging support, while working to understand the code, verify results, and improve each build.</p>
+          <div class="principles"><div><span>01</span><b>Learn the fundamentals</b></div><div><span>02</span><b>Build something practical</b></div><div><span>03</span><b>Improve with feedback</b></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container toolkit-section" id="toolkit">
+      <div class="section-heading reveal">
+        <div><span class="section-label">03 — TOOLKIT</span><h2>My current<br><span class="gradient-text">building blocks.</span></h2></div>
+        <p>A growing toolkit, strengthened by practice. I keep this list honest and focused on the technologies I use or study.</p>
+      </div>
+      <div class="toolkit-grid">
+        <div class="tool-item reveal"><span class="tool-icon python-icon">Py</span><div><h3>Python</h3><p>Programming · Problem solving</p></div><span class="tool-count">01</span></div>
+        <div class="tool-item reveal"><span class="tool-icon data-icon">Σ</span><div><h3>Pandas &amp; NumPy</h3><p>DataFrames · Arrays · CSV workflows</p></div><span class="tool-count">02</span></div>
+        <div class="tool-item reveal"><span class="tool-icon web-icon">&lt;/&gt;</span><div><h3>HTML, CSS &amp; JavaScript</h3><p>Structure · Styling · Interaction</p></div><span class="tool-count">03</span></div>
+        <div class="tool-item reveal"><span class="tool-icon sql-icon">SQL</span><div><h3>MySQL &amp; DBMS</h3><p>Relational data · Queries · Design</p></div><span class="tool-count">04</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <span class="section-label">04 — LET'S CONNECT</span>
+        <h2>Have an idea?<br><span class="gradient-text">Let's talk.</span></h2>
+        <p>Open to connecting with other learners, discussing projects, and exploring beginner-friendly opportunities that fit my current skills.</p>
+        <div class="contact-actions"><a class="button button-primary" href="https://github.com/chandrasekhar-source" target="_blank" rel="noopener noreferrer">Connect on GitHub <span>↗</span></a><a class="button button-ghost" href="mailto:YOUR_EMAIL@example.com">Email me <span>↗</span></a></div>
+        <div class="email-note">Remember to replace <code>YOUR_EMAIL@example.com</code> with your real email before publishing.</div>
+      </div>
+      <div class="contact-watermark" aria-hidden="true">c.</div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand" href="#home"><span class="brand-mark">c<span>.</span></span><span class="brand-name">CHANDRASEKHAR</span></a>
+    <p>Made with curiosity and a lot of learning.</p>
+    <a class="back-top" href="#home">BACK TO TOP ↑</a>
+    <div class="footer-bottom"><span>© <span id="year"></span> Chandrasekhar</span><span>Designed &amp; built with HTML, CSS &amp; JS</span></div>
+  </footer>
+</body>
+</html>
